@@ -1,0 +1,46 @@
+.menu-list-close {
+  max-height: 0;
+  transition: max-height 0.25s ease-out;
+  overflow: hidden;
+  background: #E6E7FC;
+}
+.menu-list-open {
+  max-height: 500px;
+  transition: max-height 0.5s ease-in;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #BCBEEF;
+  padding: 0.3em;
+}
+
+#menu-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+#menu-list {
+  position: absolute;
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+}
+
+.iconz {
+  height: 1rem;
+  margin: 7px 9px 9px 9px;
+  fill: #000;
+}
+
+.iconz-menu {
+  height: 2.5rem;
+}
+
+#site-name {
+  font-size: 2rem;
+  font-weight: 500;
+}
